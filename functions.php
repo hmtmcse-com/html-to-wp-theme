@@ -31,3 +31,9 @@ if ( ! function_exists( 'h2wp_theme_setup' ) ) :
     }
 endif;
 add_action( 'after_setup_theme', 'h2wp_theme_setup' );
+
+function read_more_excerpt( $excerpt ) {
+    global $post;
+    return '<a class="moretag" href="'. get_permalink($post->ID) . '"> Read more...</a>';
+}
+add_filter( 'excerpt_more', 'read_more_excerpt' );
