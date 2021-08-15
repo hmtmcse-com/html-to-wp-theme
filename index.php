@@ -144,12 +144,4 @@
 
 
 
-<footer class="container mt-auto py-3 bg-light">
-    <div class="container-fluid">
-        <span class="text-dark">Footer Note</span>
-    </div>
-</footer>
-
-<script src="../bootstrap/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<?php get_footer() ?>
