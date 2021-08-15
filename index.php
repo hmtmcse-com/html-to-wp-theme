@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" class="h-100">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HMTMCSE Blog</title>
-
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/theme.css" rel="stylesheet">
-</head>
-
-<body class="d-flex flex-column h-100">
-
-<div class="container">
-
-    <header class="blog-header py-3">
-        <div class="row flex-nowrap justify-content-between align-items-center">
-            <div class="col-6">
-                <a class="blog-header-logo text-dark" href="#">HMTMCSE Blog</a>
-            </div>
-            <div class="col-6 d-flex justify-content-end align-items-center">
-                <div class="row">
-                    <div class="12">
-                        <div class="input-group">
-                            <div class="input-group-text"><i class="fas fa-search"></i></div>
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <nav class="navbar navbar-expand-lg navbar-light py-1 mb-2 blog-header">
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="post-details.html">Blog Details</a></li>
-                <li class="nav-item"><a class="nav-link" href="post-archive.html">Blog Archive</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
+<?php get_header() ?>
 
 <main class="container">
 
